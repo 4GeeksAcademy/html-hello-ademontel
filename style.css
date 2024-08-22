@@ -1,0 +1,50 @@
+html{
+    background-color: black;
+}
+.post {
+    width: 50%;
+    margin: 50px 25% 50px 25%;
+    height: auto;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.post img {
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+
+.fa-html5 {
+    float: left;
+    padding: 5px;
+    font-size: 2em;
+}
+.post-header {
+    padding: 10px;
+    display: flex;
+}
+.post-header p{
+    margin: 0;
+}
+
+.fa-ellipsis-vertical {
+    margin-left: auto;
+    float: left;
+    font-size: 2.2em;
+    padding-top: 3px;
+}
+.post-body {
+    padding-bottom: 15px;
+}
+.post-body p{
+    padding: 10px;
+    margin: 0;
+}
+.post-icons {
+    font-size: 2.5em;
+    padding: 10px;
+}
+.fa-bookmark {
+    float: right;
+    margin-right: 10px;
+}
